@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jQuery Library web reference attachment -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Datatable files attachments -->
+    <link rel="stylesheet" type="text/css" href="DataTables/datatables.min.css"/>
+    <script type="text/javascript" src="DataTables/datatables.min.js"></script>
+    <title>jQuery Assignment</title>
+    <!-- my script and style files attachment -->
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+</head>
+<body>
+    <div id="content">
+        <h1>Get Country Details from IP</h1>
+        <br>
+        <input type="text" name="ipAddress" placeholder="Country IP Address" autofill="false" autocomplete="false">
+        <button id="ipSendBtn">Search Country</button>
+        <p id="errorMessage"></p>
+        <div id="tableDiv">
+            <table id="countryTable">
+                <thead>
+                    <tr>
+                        <th>Country IP</th>
+                        <th>Country Name</th>
+                        <th>Country Code</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <br>
+            <button id="deleteBtn">Delete Selected Row</button>
+        </div>
+    </div>
+</body>
+</html>
