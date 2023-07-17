@@ -1,4 +1,4 @@
-# jQuery-Assignment
+# jQuery-Practice-Project
 ### Problem Statement:
 
 Make a page (UI is not very important but do not use alert for anything) with text box to take input of IP address.
